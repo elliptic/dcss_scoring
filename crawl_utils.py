@@ -236,7 +236,9 @@ def morgue_link(xdict):
 
 def linked_text(key, link_fn, text=None):
   link = link_fn(key)
-  ltext = str(text or key).replace('_', ' ')
+  if text is None:
+    text = key
+  ltext = str(text).replace('_', ' ')
   if link:
     return '<a href="%s">%s</a>' % (link, ltext)
   else:
