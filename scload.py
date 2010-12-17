@@ -80,7 +80,7 @@ else:
 
 BLACKLIST_FILE = 'blacklist.txt'
 EXTENSION_FILE = 'modules.ext'
-SCORING_DB = 'scoring'
+SCORING_DB = 'scoring_stable'
 COMMIT_INTERVAL = 3000
 CRAWLRC_DIRECTORY = '/home/crawl/chroot/dgldir/rcfiles/'
 
