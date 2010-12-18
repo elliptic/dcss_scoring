@@ -2,7 +2,7 @@
    import query, scload, html
    c = attributes['cursor']
 
-   title = "CAO/CDO Scoring Overview"
+   title = "CAO/CDO Scoring Overview (stable versions)"
    top_scores = query.find_games(c, 'top_games', sort_max='sc', limit=5)
 
    streaks = query.all_streaks(c)
