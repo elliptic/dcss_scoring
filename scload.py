@@ -43,7 +43,7 @@ LOGS = [ 'cao-logfile-0.123',
          ('cdo-logfile-0.4', CDO + 'allgames-0.4.txt'),
          ('cdo-logfile-0.5', CDO + 'allgames-0.5.txt'),
          ('cdo-logfile-0.6', CDO + 'allgames-0.6.txt'),
-         ('cdo-logfile-0.7', CDO + 'allgames-0.7.txt')
+         ('cdo-logfile-0.7', CDO + 'allgames-0.7.txt'),
          ('cdo-logfile-0.8', CDO + 'allgames-0.8.txt')
          ]
 
@@ -57,7 +57,7 @@ MILESTONES = [ 'cao-milestones-0.2',
                ('cdo-milestones-0.4', CDO + 'milestones-0.4.txt'),
                ('cdo-milestones-0.5', CDO + 'milestones-0.5.txt'),
                ('cdo-milestones-0.6', CDO + 'milestones-0.6.txt'),
-               ('cdo-milestones-0.7', CDO + 'milestones-0.7.txt')
+               ('cdo-milestones-0.7', CDO + 'milestones-0.7.txt'),
                ('cdo-milestones-0.8', CDO + 'milestones-0.8.txt')
                ]
 
