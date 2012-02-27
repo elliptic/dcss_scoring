@@ -13,6 +13,7 @@ MORGUE_BASES = [
  [ R(r'cdo.*-0.6$'),   'http://crawl.develz.org/morgues/0.6' ],
  [ R(r'cdo.*-0.7'),    'http://crawl.develz.org/morgues/0.7' ],
  [ R(r'cdo.*-0.8'),    'http://crawl.develz.org/morgues/0.8' ],
+ [ R(r'cdo.*-0.10'),   'http://crawl.develz.org/morgues/0.10' ],
  [ R(r'cdo.*-svn$'),   'http://crawl.develz.org/morgues/trunk' ],
  [ R(r'cdo.*-zd$'),    'http://crawl.develz.org/morgues/trunk' ],
  [ R(r'cdo.*-spr$'),   'http://crawl.develz.org/morgues/sprint' ],
