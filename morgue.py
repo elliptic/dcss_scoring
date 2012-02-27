@@ -95,7 +95,12 @@ def morgue_link(g):
   src = g['source_file']
   name = g['name']
   stime = format_time( g['end_time'] )
-  if g['v'] < '0.4':
+  v_regex = R(r'^0\.([0-9]+)')
+  v_search = v_regex.search(g['v'])
+  if not v_search:
+    return ''
+  version = int(v_search.group(1))
+  if version < 4:
     if game_is_cao(g):
       return find_cao_morgue_link(name, stime)
     # Nothing we can do for anyone else with old games.
