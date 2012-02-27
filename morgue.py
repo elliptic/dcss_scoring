@@ -105,6 +105,11 @@ def morgue_link(g):
       return find_cao_morgue_link(name, stime)
     # Nothing we can do for anyone else with old games.
     return ''
+  if version == 9 and not game_is_cao(g):
+    # CDO logs and milestones for 0.9 were placed in the same file as trunk
+    # games, so we need to handle this specially.
+    if stime > "20110819-1740":
+      return "http://crawl.develz.org/morgues/0.9/%s/morgue-%s-%s.txt" % (name, name, stime)
   for regex, url in MORGUE_BASES:
     if regex.search(src):
       return "%s/%s/morgue-%s-%s.txt" % (url, name, name, stime)
